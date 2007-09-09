@@ -1,7 +1,7 @@
 Summary:	A tool to flush ARP cache entries from devices
 Name:		arprelease
 Version:	1.2
-Release:	%mkrel 2
+Release:	%mkrel 3
 License:	GPL
 Group:		Networking/Other
 URL:		http://arprelease.sourceforge.net/
@@ -35,5 +35,3 @@ install -m0755 arprelease  %{buildroot}%{_sbindir}/
 %defattr(-,root,root)
 %doc README
 %{_sbindir}/arprelease
-
-
