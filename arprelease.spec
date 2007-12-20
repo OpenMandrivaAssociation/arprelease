@@ -7,6 +7,7 @@ Group:		Networking/Other
 URL:		http://arprelease.sourceforge.net/
 Source0:	http://prdownloads.sourceforge.net/arprelease/%{name}-%{version}.tar.bz2
 BuildRequires:	libnet1.1.2-devel
+BuildRoot:	%{_tmppath}/%{name}-%{version}-root
 
 %description
 arprelease is a small libnet-based tool to flush ARP cache entries
