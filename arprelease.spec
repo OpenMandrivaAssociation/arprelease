@@ -35,3 +35,39 @@ install -m0755 arprelease  %{buildroot}%{_sbindir}/
 %defattr(-,root,root)
 %doc README
 %{_sbindir}/arprelease
+
+
+%changelog
+* Thu Jun 04 2009 Oden Eriksson <oeriksson@mandriva.com> 1.2-5mdv2010.0
++ Revision: 382695
+- rebuilt against libnet 1.1.3
+
+* Thu Jun 19 2008 Thierry Vignaud <tv@mandriva.org> 1.2-4mdv2009.0
++ Revision: 226172
+- rebuild
+
+* Thu Dec 20 2007 Olivier Blin <oblin@mandriva.com> 1.2-3mdv2008.1
++ Revision: 135823
+- restore BuildRoot
+
+  + Thierry Vignaud <tv@mandriva.org>
+    - kill re-definition of %%buildroot on Pixel's request
+
+* Sun Sep 09 2007 Oden Eriksson <oeriksson@mandriva.com> 1.2-3mdv2008.0
++ Revision: 83858
+- rebuild
+
+
+* Fri Dec 22 2006 Oden Eriksson <oeriksson@mandriva.com> 1.2-2mdv2007.0
++ Revision: 101567
+- Import arprelease
+
+* Fri Mar 17 2006 Oden Eriksson <oeriksson@mandriva.com> 1.2-2mdk
+- rebuilt against libnet1.1.2
+
+* Mon Oct 17 2005 Olivier Thauvin <nanardon@mandriva.org> 1.2-1mdk
+- 1.2
+
+* Fri Oct 07 2005 Oden Eriksson <oeriksson@mandriva.com> 1.1-1mdk
+- initial Mandriva package
+
